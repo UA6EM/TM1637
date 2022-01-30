@@ -2,7 +2,7 @@
 
 // число цыферок у дисплейчика, в моём 4, бывают на 6 - 8, но у мня нет,я не тестил
 //
-const uint8_t NUM_DIGITS = 4;     
+const uint8_t NUM_DIGITS = 6;     
 
 
 enum class enTM1637Type : bool { Number = false, Time = true };	// перечисление: тип дисплея числа/время
